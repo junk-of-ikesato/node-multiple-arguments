@@ -6,6 +6,7 @@
 //}
 
 function logging(...args) {
+    args.unshift('hello');
     console.log(...args);
 }
 
